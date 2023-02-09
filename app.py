@@ -8,7 +8,7 @@ window = Tk()
 window.minsize(600,450)
 window.title("Welcome to LikeGeeks app")
 data = {}
-
+#
 config_name = 'config.json'
 #this is how pyinstaller use relative path
 if getattr(sys, 'frozen', False):
